@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "bpmnlint:recommended",
+    "plugin:custom/recommended"
+  ],
+  "rules": {
+    "label-required": "off",
+    "custom/no-manual-task": "warn",
+    "custom/no-script-task": "warn",
+    "custom/no-user-task": "warn",
+    "custom/no-inclusive-gateway": "warn",
+    "custom/no-business-rule-task": "warn",
+    "custom/no-escalation-events": "warn",
+    "custom/no-condition-events": "warn",
+    "custom/no-message-send-events": "warn",
+    "custom/no-link-events": "warn",
+    "custom/no-signal-events": "warn",
+    "custom/no-send-task": "warn",
+    "custom/no-termination-event": "warn",
+    "custom/no-compensation-events": "warn"
+  }
+}
